@@ -40,11 +40,28 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Germany",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+		//Conquistador should have no penalty attacking cities
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 	},
 	{
 		"name": "Hussar",
@@ -55,7 +72,6 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>",
@@ -74,7 +90,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"promotions": ["Quick Study", "Blitz", "[Hussar] ability", "Great Generals II"],
+		"promotions": ["Quick Study", "Blitz", "Great Generals II"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank.
@@ -178,7 +194,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"promotions": ["Drill I","[Persian Immortal] ability",  "Quick Study"],
+		"promotions": ["[Persian Immortal] ability",  "Quick Study"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
