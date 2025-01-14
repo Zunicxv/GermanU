@@ -58,7 +58,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"promotions": ["Quick Study", "Blitz", "[Hussar] ability"],
+		"promotions": ["Quick Study", "Blitz", "[Hussar] ability", "Great Generals II"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank.
@@ -135,7 +135,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
-		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "[Persian Immortal] ability", "Quick Study"],
+		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "[Persian Immortal] ability","Great Generals II", "Quick Study"],
 		"attackSound": "shot"
 	},
 	{
