@@ -14,6 +14,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"
+	},
+	{
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
