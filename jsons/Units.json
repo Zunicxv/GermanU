@@ -208,11 +208,26 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"promotions": ["[Persian Immortal] ability",  "Quick Study"],
+		"promotions": ["Quick Study"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW.
+	},
+	{
+		"name": "Hakkapeliitta",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Germany",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Hakkapeliitta] ability","Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"attackSound": "horse"
 	},
 	{
 		"name": "B17",
